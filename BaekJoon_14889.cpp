@@ -19,6 +19,7 @@ int main()
     int stats[n][n];
     int cnt = n / 2;
 
+    // 조합 만들어 저장하기
     for (int i = 0; i < n; i++)
     {
         s.push_back(i);
@@ -51,6 +52,7 @@ int main()
 
     int min = 100;
 
+    // 팀별 능력치 구하기, 차이 구하기
     for (int i = 0; i < com1.size(); i++)
     {
         int team_stat1 = 0;
