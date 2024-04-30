@@ -11,7 +11,6 @@ stack<int> s;
 
 void dfs(int **arr, bool *isVisited, int n)
 {
-
     if (s.empty())
         return;
 
